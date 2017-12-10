@@ -3269,7 +3269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventSystem: {fileID: 1565116164}
-  selectedGameObject: {fileID: 0}
+  selectedGameObject: {fileID: 1601531332}
 --- !u!114 &1069873142
 MonoBehaviour:
   m_ObjectHideFlags: 0
