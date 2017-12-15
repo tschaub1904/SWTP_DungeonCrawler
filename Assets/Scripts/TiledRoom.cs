@@ -24,6 +24,15 @@ public class TiledRoom : TileMap {
                 {
                     bool isCornerTile = (row == 0 && col == 0) || (row == 0 && col == numColumns - 1) || (row == numRows - 1 && col == 0) || (row == numRows - 1 && col == numColumns - 1);
                     float rotation = (col == 0) ? 90f : (col == numColumns - 1) ? -90f : (row == numRows-1) ? 0: 180f;
+                    
+                    #region dirtyhack
+                    // TODO Fix later (never)
+                    if (col == 0 && row == 0) 
+                        rotation = 180f;
+                    if (col == numColumns-1 && row == numRows-1)
+                        rotation = 0;
+                    #endregion
+                    
                     GameObject toInstantiate = Instantiate(wallTilePrefab, new Vector3(col, row, 0), Quaternion.Euler(0,0,rotation), transform);
 
                     Sprite sprite = isCornerTile ? wallCornerSprite : wallSprite;
