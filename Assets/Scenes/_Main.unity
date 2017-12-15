@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1102978998}
   playerCheck: {fileID: 305805561}
-  detectionRadius: 5
+  detectionRadius: 4.5
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 256
@@ -1303,7 +1303,7 @@ Prefab:
     - target: {fileID: 224318803968351562, guid: bc041632f60dbc44cb61dd4285dc2a48,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 249.99998
+      value: 250.00005
       objectReference: {fileID: 0}
     - target: {fileID: 224318803968351562, guid: bc041632f60dbc44cb61dd4285dc2a48,
         type: 2}
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1102978998}
   playerCheck: {fileID: 621222227}
-  detectionRadius: 5
+  detectionRadius: 4.5
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 256
@@ -1842,7 +1842,7 @@ Prefab:
     - target: {fileID: 224318803968351562, guid: bc041632f60dbc44cb61dd4285dc2a48,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 408.3333
+      value: -175.00003
       objectReference: {fileID: 0}
     - target: {fileID: 224318803968351562, guid: bc041632f60dbc44cb61dd4285dc2a48,
         type: 2}
@@ -3092,7 +3092,7 @@ Prefab:
     - target: {fileID: 224318803968351562, guid: bc041632f60dbc44cb61dd4285dc2a48,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 91.666626
+      value: 131.25
       objectReference: {fileID: 0}
     - target: {fileID: 224318803968351562, guid: bc041632f60dbc44cb61dd4285dc2a48,
         type: 2}
@@ -3661,9 +3661,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damagePerShot: 10
-  timeBetweenBullets: 0.25
+  timeBetweenBullets: 0.33
   initialSpeed: 8
-  critChance: 50
+  critChance: 0
   critScale: 3
   bulletPrefab: {fileID: 1476704264672972, guid: 55d757b47e794614db6f401d37d003aa,
     type: 2}
@@ -10353,7 +10353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1102978998}
   playerCheck: {fileID: 2106746773}
-  detectionRadius: 5
+  detectionRadius: 4.5
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 256
